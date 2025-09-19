@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D9 Wasafi Tech - Web Development & Digital Solutions</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #fff; color: #333; line-height: 1.6; }
+    header { background: linear-gradient(135deg, #000 60%, #ff6600 40%); color: #fff; text-align: center; padding: 3rem 1rem; }
+    header img { max-width: 120px; margin-bottom: 1rem; }
+    header h1 { font-size: 2.8rem; margin-bottom: 0.5rem; }
+    header h1 span { color: #ff6600; } /* Only T in Tech is orange */
+    header p { font-size: 1.2rem; color: #fff; }
+    section { padding: 3rem 1rem; max-width: 1100px; margin: auto; }
+    .services, .portfolio, .videos, .news, .contact, .location { margin-bottom: 3rem; }
+    h2 { text-align: center; margin-bottom: 2rem; font-size: 2.2rem; color: #ff6600; }
+    .service-list, .portfolio-list, .video-list, .news-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: #f9f9f9; padding: 1.8rem; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 6px 15px rgba(0,0,0,0.15); }
+    .card h3 { margin-bottom: 0.7rem; color: #111; }
+    .card p { margin-bottom: 0.5rem; }
+    .card img, .card video { margin-top: 0.5rem; max-width: 100%; border-radius: 8px; }
+    .cta { text-align: center; margin-top: 2rem; }
+    .cta a { display: inline-block; background: #ff6600; color: #fff; padding: 1rem 2rem; border-radius: 6px; text-decoration: none; font-weight: bold; transition: background 0.3s; }
+    .cta a:hover { background: #e65c00; }
+    footer { background: #000; color: #fff; text-align: center; padding: 1rem; font-size: 0.9rem; }
+    iframe { width: 100%; height: 250px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo placeholder -->
+    <img src="logo.png" alt="D9 Wasafi Tech Logo" />
+    <h1>D9 Wasafi <span>T</span>ech</h1>
+    <p>Web Development | Digital Marketing | AI Prompt Engineering | Event Organization</p>
+  </header>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="card"><h3>Web Design & Development</h3><p>Modern, mobile-friendly websites tailored for your business.</p><p><em>Upload related images/videos here</em></p></div>
+      <div class="card"><h3>Landing Pages</h3><p>High-converting landing pages designed to capture leads and boost sales.</p><p><em>Upload related images/videos here</em></p></div>
+      <div class="card"><h3>Social Media Management</h3><p>Content creation and growth strategies for your online presence.</p><p><em>Upload related images/videos here</em></p></div>
+      <div class="card"><h3>AI Prompt Engineering</h3><p>Custom AI prompt solutions for smarter workflows and automation.</p><p><em>Upload related images/videos here</em></p></div>
+      <div class="card"><h3>Digital Marketing</h3><p>Targeted strategies to grow your audience and maximize ROI.</p><p><em>Upload related images/videos here</em></p></div>
+      <div class="card"><h3>Event Organization</h3><p>Professional event planning and organization services.</p><p><em>Upload related images/videos here</em></p></div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio-list">
+      <div class="card"><h3>Business Website</h3><p>Sample of a clean and professional company website.</p><p><em>Upload screenshot here</em></p></div>
+      <div class="card"><h3>E-commerce Page</h3><p>Modern online shop design with user-friendly navigation.</p><p><em>Upload screenshot here</em></p></div>
+      <div class="card"><h3>Landing Page</h3><p>Example of a high-converting marketing page.</p><p><em>Upload screenshot here</em></p></div>
+    </div>
+  </section>
+
+  <section class="videos">
+    <h2>Our Media</h2>
+    <div class="video-list">
+      <div class="card"><h3>Project Demo Video</h3><iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Video" allowfullscreen></iframe><p><em>Description here</em></p></div>
+      <div class="card"><h3>Event Highlights</h3><iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Video" allowfullscreen></iframe><p><em>Description here</em></p></div>
+    </div>
+  </section>
+
+  <section class="news">
+    <h2>Latest News</h2>
+    <div class="news-list">
+      <div class="card"><h3>New Project Launched</h3><p>We recently completed a cutting-edge e-commerce platform for a client. <em>Read more...</em></p></div>
+      <div class="card"><h3>Upcoming Event</h3><p>Join our upcoming webinar on AI solutions in digital marketing. <em>Read more...</em></p></div>
+      <div class="card"><h3>Tips & Insights</h3><p>Our latest insights on boosting social media engagement. <em>Read more...</em></p></div>
+    </div>
+  </section>
+
+  <section class="location">
+    <h2>Our Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.123456789!2d39.2649!3d-6.7982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4b2a1b2c1234%3A0xabcdef1234567890!2sNATAI%20PLAZA%2C%20Coca-Cola%20Rd%2C%20Mwenge%2C%20Dar%20es%20Salaam!5e0!3m2!1sen!2stz!4v1690000000000" allowfullscreen></iframe>
+    <p style="text-align:center; margin-top:0.5rem;">NATAI PLAZA, Coca-Cola Road, Mwenge, Dar es Salaam</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <div class="cta">
+      <p>Let’s build something great for your business.</p>
+      <a href="https://wa.me/255618283119" target="_blank">Chat with Us on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 D9 Wasafi Tech. All rights reserved.</p>
+  </footer>
+</body>
+</html>
